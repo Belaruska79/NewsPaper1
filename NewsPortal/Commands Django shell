@@ -1,0 +1,8 @@
+>>from NewsPaper.models import Author
+>>author1 = Author.objects.create (full_name = "Иван Иванов")
+>>author2 = Author.objects.create (full_name = "Сидор Сидоров")
+>>from NewsPaper.models import Cetegory
+>>category1 = Category.objects.create (category_name = "Политика")
+>>category1 = Category.objects.create (category_name = "Спорт")
+>>category1 = Category.objects.create (category_name = "Коронавирус")
+>>category1 = Category.objects.create (category_name = "Погода")
